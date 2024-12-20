@@ -17,12 +17,14 @@
 
 *{
   box-sizing: border-box;
+  font-family: var(--font-azeret-mono), Arial;
 }
 
 body {
   color: var(--background);
   background: var(--foreground);
-  font-family: var(--font-azeret-mono), Arial, Helvetica, sans-serif;
+  font-family: var(--font-azeret-mono), Arial;
+  
 }
 
 

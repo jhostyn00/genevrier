@@ -1,0 +1,274 @@
+[
+    {
+      "codigo": "CC001",
+      "genero": "Masculino",
+      "nombre": "212 CAROLINA HERRERA MEN",
+      "tendencia_olfativa": "Cítrico, Verde, Cálido",
+      "referencia": "./img/cc001.png",
+      "componentes": [
+        "Toronja",
+        "Bergamota",
+        "Jengibre",
+        "Almizcle"
+      ],
+      "venta_300": 30,
+      "venta_500": 50,
+      "venta_700": 70
+    },
+    {
+      "codigo": "CC002",
+      "genero": "Masculino",
+      "nombre": "212 SEXY MEN CAROLINA HERRERA",
+      "tendencia_olfativa": "Avainillado, Amaderado, Atalcado",
+      "referencia": "./img/cc002.png",
+      "componentes": [
+        "Vainilla",
+        "Madera de Gaiac",
+        "Pimienta"
+      ],
+      "venta_300": 30,
+      "venta_500": 50,
+      "venta_700": 70
+    },
+    {
+      "codigo": "CC003",
+      "genero": "Masculino",
+      "nombre": "360º MEN PERRY ELLIS",
+      "tendencia_olfativa": "Aromático, Fresco Especiado, Amaderado",
+      "referencia": "./img/cc003.png",
+      "componentes": [
+        "Bayas de Enebro",
+        "Limón",
+        "Lavanda",
+        "Salvia"
+      ],
+      "venta_300": 30,
+      "venta_500": 50,
+      "venta_700": 70
+    },
+    {
+      "codigo": "CC004",
+      "genero": "Masculino",
+      "nombre": "212 VIP MEN CAROLINA HERRERA",
+      "tendencia_olfativa": "Especiado Suave, Avainillado, Aromático",
+      "referencia": "./img/cc003.png",
+      "componentes": [
+        "Absenta",
+        "Vaina de Vainilla",
+        "Anís"
+      ],
+      "venta_300": 30,
+      "venta_500": 50,
+      "venta_700": 70
+    },
+    {
+        "codigo": "CC005",
+        "genero": "Masculino",
+        "nombre": "212 VIP MEN SPORT CAROLINA HERRERA",
+        "tendencia_olfativa": "Aromático, Amaderado, Cítrico",
+        "referencia": "./img/cc003.png",
+        "componentes": [
+          "Toronja",
+          "Vetiver",
+          "Notas Marinas"
+        ],
+        "venta_300": 30,
+        "venta_500": 50,
+        "venta_700": 70
+      },
+      {
+        "codigo": "CC006",
+        "genero": "Masculino",
+        "nombre": "360º RED PERRY ELLIS",
+        "tendencia_olfativa": "Cítrico, Freso Especiado, Cálido Especiado",
+        "referencia": "./img/cc003.png",
+        "componentes": [
+          "Lima",
+          "Limón Verde",
+          "Canela"
+        ],
+        "venta_300": 30,
+        "venta_500": 50,
+        "venta_700": 70
+      },
+      {
+        "codigo": "CC007",
+        "genero": "Masculino",
+        "nombre": "212 HEROES CH",
+        "tendencia_olfativa": "Aromático, Afrutado, Herbal",
+        "referencia": "./img/cc003.png",
+        "componentes": [
+          "Pera",
+          "Canabis",
+          "Salvia"
+        ],
+        "venta_300": 30,
+        "venta_500": 50,
+        "venta_700": 70
+      },
+      {
+        "codigo": "CC008",
+        "genero": "Masculino",
+        "nombre": "ACQUA DI GIO MEN GIORGIO ARMANI",
+        "tendencia_olfativa": "Cítrico, Aromático, Marino",
+        "referencia": "./img/cc003.png",
+        "componentes": [
+          "Notas Marinas",
+          "Limón",
+          "Jazmin"
+        ],
+        "venta_300": 30,
+        "venta_500": 50,
+        "venta_700": 70
+      },
+      {
+        "codigo": "CC009",
+        "genero": "Masculino",
+        "nombre": "ALTITUDE SWISS ARMY",
+        "tendencia_olfativa": "Aromático, Amaderado, Verde",
+        "referencia": "./img/cc003.png",
+        "componentes": [
+          "Salvia",
+          "Menta",
+          "Madera de Cedro"
+        ],
+        "venta_300": 30,
+        "venta_500": 50,
+        "venta_700": 70
+      },
+      {
+        "codigo": "DD001",
+        "genero": "Femenino",
+        "nombre": "212 CAROLINA HERRERA WOMAN",
+        "tendencia_olfativa": "Floral Blanco, Cítrico, Almizclado",
+        "referencia": "./img/dd001.png",
+        "componentes": [
+          "Almizcle",
+          "Azucena",
+          "Flor de Azahar"
+        ],
+        "venta_300": 30,
+        "venta_500": 50,
+        "venta_700": 70
+      },
+      {
+        "codigo": "DD002",
+        "genero": "Femenino",
+        "nombre": "212 SEXY WOMAN CAROLINA HERRERA",
+        "tendencia_olfativa": "Dulce, Almizclado, Avainillado",
+        "referencia": "./img/dd002.png",
+        "componentes": [
+          "Pimienta Rosa",
+          "Vainilla",
+          "Algodón de Azucar"
+        ],
+        "venta_300": 30,
+        "venta_500": 50,
+        "venta_700": 70
+      },
+      {
+        "codigo": "DD003",
+        "genero": "Femenino",
+        "nombre": "360º  WOMAN PERRY ELLIS",
+        "tendencia_olfativa": "Florales, Acuático, Aromático",
+        "referencia": "./img/dd003.png",
+        "componentes": [
+          "Azucena",
+          "Melón",
+          "Lirio de Agua"
+        ],
+        "venta_300": 30,
+        "venta_500": 50,
+        "venta_700": 70
+      },
+      {
+        "codigo": "DD004",
+        "genero": "Femenino",
+        "nombre": "212 ON ICE WOMAN CAROLINA HERRERA",
+        "tendencia_olfativa": "Cítricos, Rosas, Floral, Blanco",
+        "referencia": "./img/dd004.png",
+        "componentes": [
+          "Mandarina",
+          "Rosa",
+          "Toronja"
+        ],
+        "venta_300": 30,
+        "venta_500": 50,
+        "venta_700": 70
+      },
+      {
+        "codigo": "DD005",
+        "genero": "Femenino",
+        "nombre": "212 VIP WOMAN CAROLINA HEERERA",
+        "tendencia_olfativa": "Balsámico Tropical",
+        "referencia": "./img/dd005.png",
+        "componentes": [
+          "Dulce",
+          "Ron Avainillado"
+        ],
+        "venta_300": 30,
+        "venta_500": 50,
+        "venta_700": 70
+      },
+      {
+        "codigo": "DD006",
+        "genero": "Femenino",
+        "nombre": "212 VIP ROSE CAROLINA HERRERA",
+        "tendencia_olfativa": "Afrutados, Florales, Amaderado",
+        "referencia": "./img/dd006.png",
+        "componentes": [
+          "Champaña",
+          "Notas Frutadas",
+          "Flor de Duraznero"
+        ],
+        "venta_300": 30,
+        "venta_500": 50,
+        "venta_700": 70
+      },
+      {
+        "codigo": "DD007",
+        "genero": "Femenino",
+        "nombre": "ACQUA DI GIO WOMAN GIORGIO ARMANI",
+        "tendencia_olfativa": "Florales, Verde, Fresco",
+        "referencia": "./img/dd007.png",
+        "componentes": [
+          "Peonia",
+          "Vodka",
+          "Lirios"
+        ],
+        "venta_300": 30,
+        "venta_500": 50,
+        "venta_700": 70
+      },
+      {
+        "codigo": "DD008",
+        "genero": "Femenino",
+        "nombre": "AIRES DEL TIEMPO NINA RICCI",
+        "tendencia_olfativa": "Cálido Especiado, Florales, Amaderado",
+        "referencia": "./img/dd008.png",
+        "componentes": [
+          "Clavel",
+          "Clavos de Olor",
+          "Aldehidos"
+        ],
+        "venta_300": 30,
+        "venta_500": 50,
+        "venta_700": 70
+      },
+      {
+        "codigo": "DD009",
+        "genero": "Femenino",
+        "nombre": "AMOR AMOR WOMAN CACHAREL",
+        "tendencia_olfativa": "Cítricos, Afrutados, Amaderado",
+        "referencia": "./img/dd009.png",
+        "componentes": [
+          "Grosellas Negras",
+          "Vainilla",
+          "Naranja"
+        ],
+        "venta_300": 30,
+        "venta_500": 50,
+        "venta_700": 70
+      }
+
+  ]
