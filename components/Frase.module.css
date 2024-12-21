@@ -1,0 +1,28 @@
+/* styles/Frase.module.css */
+
+.banner {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+  }
+  
+  .fraseTop, .fraseBottom {
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin: 0;
+  }
+  
+  .fraseTop {
+    font-size: 36px;
+  }
+  
+  .fraseBottom {
+    font-size: 36px;
+  }
+  

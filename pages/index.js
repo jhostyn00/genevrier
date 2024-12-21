@@ -4,6 +4,9 @@ import Navegator from '../components/Navegator';
 import Frase from "@/components/Frase";
 import PerfumesPage from "@/components/PerfumesPage";
 import BestChoice from "@/components/BestChoice";
+import Footer from "@/components/Footer";
+
+
 
 export default function Home() {
   return (
@@ -14,6 +17,8 @@ export default function Home() {
       <Frase />
       <PerfumesPage />
       <BestChoice />
+      <Footer />
+
     </main>
   );
 }

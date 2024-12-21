@@ -53,7 +53,7 @@ const PerfumesPage = () => {
   return (
     <div>
       {/* Buscador */}
-      <div className="flex items-center justify-center p-4 bg-black">
+      <div className="flex items-center justify-center p-4 ">
         <div className="relative w-full max-w-md">
           <input
             type="text"

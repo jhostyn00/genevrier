@@ -1,17 +1,13 @@
+// components/Frase.js
+
 const Frase = () => {
     return (
-        <div className="w-screen">
-            <div className="w-screen h-auto overflow-hidden bg-white">
-                <div className="relative w-full h-[15vh] animate-marquee ">
-                    <span className="absolute top-0 left-0 whitespace-nowrap font-extrabold text-[10vh] text-black p-0 m-0">
-                        TU FRAGANCIA TU ESTILO
-                    </span>
-                </div>
-            </div>
-            
-        </div>
-
+      <div className="flex flex-col items-center justify-center w-full text-center h-52">
+        <h1 className="mb-2 text-4xl font-bold tracking-widest text-black uppercase">TU FRAGANCIA</h1>
+        <h2 className="text-4xl font-bold tracking-widest text-black uppercase">TU ESTILO</h2>
+      </div>
     );
-}
-
-export default Frase;
+  };
+  
+  export default Frase;
+  
