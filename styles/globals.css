@@ -8,12 +8,6 @@
   --font-azeret-mono: 'Azeret Mono', monospace;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
 
 *{
   box-sizing: border-box;
@@ -33,6 +27,41 @@ html {
 
 
 
+/* Animación de expansión */
+@keyframes expand {
+  0% {
+      transform: scale(0);
+      opacity: 0;
+  }
+  50% {
+      transform: scale(1.2);
+      opacity: 0.5;
+  }
+  100% {
+      transform: scale(1);
+      opacity: 1;
+  }
+}
+
+/* Aplicar la animación de expansión */
+.animate-expand {
+  animation: expand 2s ease-in-out infinite;
+}
+
+/* Animación de rotación lenta */
+@keyframes spin-slow {
+  0% {
+      transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(360deg);
+  }
+}
+
+/* Aplicar la animación de rotación */
+.animate-spin-slow {
+  animation: spin-slow 4s linear infinite;
+}
 
 
 

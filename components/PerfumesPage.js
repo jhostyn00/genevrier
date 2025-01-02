@@ -59,9 +59,9 @@ const PerfumesPage = () => {
   const totalPages = Math.ceil(filteredProductos.length / itemsPerPage);
 
   return (
-    <div id="perfumes" ref={productosContainerRef}>
+    <div id="perfumes" ref={productosContainerRef} className="bg-[#ededed]">
       {/* Buscador */}
-      <div className="flex items-center justify-center p-4 ">
+      <div className="flex bg-[#ededed] items-center justify-center p-4 ">
         <div className="relative w-full max-w-md">
           <input
             type="text"
@@ -78,7 +78,7 @@ const PerfumesPage = () => {
 
       {/* Tarjetas de Productos */}
       <div
-        className="grid grid-cols-1 gap-6 p-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4"
+        className="grid bg-[#ededed] grid-cols-1 gap-6 p-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4"
         
       >
         {currentProducts.length > 0 ? (
@@ -108,7 +108,7 @@ const PerfumesPage = () => {
       </div>
 
       {/* Paginación Elegante */}
-      <div className="flex items-center justify-center mt-6 space-x-4">
+      <div className="flex bg-[#ededed] text-black items-center justify-center mt-6 space-x-4 pb-4">
         {/* Botón de "Anterior" */}
         <button
           onClick={() => handlePageChange(currentPage - 1)}
