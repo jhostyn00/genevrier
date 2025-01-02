@@ -1,274 +1,1280 @@
 [
-    {
+  {
       "codigo": "CC001",
       "genero": "Masculino",
       "nombre": "212 CAROLINA HERRERA MEN",
       "tendencia_olfativa": "Cítrico, Verde, Cálido",
       "referencia": "./img/cc001.png",
-      "componentes": [
-        "Toronja",
-        "Bergamota",
-        "Jengibre",
-        "Almizcle"
-      ],
-      "venta_300": 30,
-      "venta_500": 50,
-      "venta_700": 70
-    },
-    {
+      "componentes": ["Toronja", "Bergamota", "Jengibre", "Almizcle"],
+      "venta_300": 35,
+      "venta_500": 55,
+      "venta_700": 75
+  },
+  {
       "codigo": "CC002",
       "genero": "Masculino",
       "nombre": "212 SEXY MEN CAROLINA HERRERA",
       "tendencia_olfativa": "Avainillado, Amaderado, Atalcado",
       "referencia": "./img/cc002.png",
-      "componentes": [
-        "Vainilla",
-        "Madera de Gaiac",
-        "Pimienta"
-      ],
+      "componentes": ["Vainilla", "Madera de Gaiac", "Pimienta"],
       "venta_300": 30,
       "venta_500": 50,
       "venta_700": 70
-    },
-    {
+  },
+  {
       "codigo": "CC003",
       "genero": "Masculino",
       "nombre": "360º MEN PERRY ELLIS",
-      "tendencia_olfativa": "Aromático, Fresco Especiado, Amaderado",
+      "tendencia_olfativa": "Aromático, Fresco, Especiado, Amaderado",
       "referencia": "./img/cc003.png",
-      "componentes": [
-        "Bayas de Enebro",
-        "Limón",
-        "Lavanda",
-        "Salvia"
-      ],
+      "componentes": ["Bayas de Enebro", "Limón", "Lavanda", "Salvia"],
       "venta_300": 30,
       "venta_500": 50,
       "venta_700": 70
-    },
-    {
+  },
+  {
       "codigo": "CC004",
       "genero": "Masculino",
       "nombre": "212 VIP MEN CAROLINA HERRERA",
       "tendencia_olfativa": "Especiado Suave, Avainillado, Aromático",
-      "referencia": "./img/cc003.png",
-      "componentes": [
-        "Absenta",
-        "Vaina de Vainilla",
-        "Anís"
-      ],
+      "referencia": "./img/cc004.png",
+      "componentes": ["Absenta", "Vaina de Vainilla", "Anís"],
       "venta_300": 30,
       "venta_500": 50,
       "venta_700": 70
-    },
-    {
-        "codigo": "CC005",
-        "genero": "Masculino",
-        "nombre": "212 VIP MEN SPORT CAROLINA HERRERA",
-        "tendencia_olfativa": "Aromático, Amaderado, Cítrico",
-        "referencia": "./img/cc003.png",
-        "componentes": [
-          "Toronja",
-          "Vetiver",
-          "Notas Marinas"
-        ],
-        "venta_300": 30,
-        "venta_500": 50,
-        "venta_700": 70
-      },
-      {
-        "codigo": "CC006",
-        "genero": "Masculino",
-        "nombre": "360º RED PERRY ELLIS",
-        "tendencia_olfativa": "Cítrico, Freso Especiado, Cálido Especiado",
-        "referencia": "./img/cc003.png",
-        "componentes": [
-          "Lima",
-          "Limón Verde",
-          "Canela"
-        ],
-        "venta_300": 30,
-        "venta_500": 50,
-        "venta_700": 70
-      },
-      {
-        "codigo": "CC007",
-        "genero": "Masculino",
-        "nombre": "212 HEROES CH",
-        "tendencia_olfativa": "Aromático, Afrutado, Herbal",
-        "referencia": "./img/cc003.png",
-        "componentes": [
-          "Pera",
-          "Canabis",
-          "Salvia"
-        ],
-        "venta_300": 30,
-        "venta_500": 50,
-        "venta_700": 70
-      },
-      {
-        "codigo": "CC008",
-        "genero": "Masculino",
-        "nombre": "ACQUA DI GIO MEN GIORGIO ARMANI",
-        "tendencia_olfativa": "Cítrico, Aromático, Marino",
-        "referencia": "./img/cc003.png",
-        "componentes": [
-          "Notas Marinas",
-          "Limón",
-          "Jazmin"
-        ],
-        "venta_300": 30,
-        "venta_500": 50,
-        "venta_700": 70
-      },
-      {
-        "codigo": "CC009",
-        "genero": "Masculino",
-        "nombre": "ALTITUDE SWISS ARMY",
-        "tendencia_olfativa": "Aromático, Amaderado, Verde",
-        "referencia": "./img/cc003.png",
-        "componentes": [
-          "Salvia",
-          "Menta",
-          "Madera de Cedro"
-        ],
-        "venta_300": 30,
-        "venta_500": 50,
-        "venta_700": 70
-      },
-      {
-        "codigo": "DD001",
-        "genero": "Femenino",
-        "nombre": "212 CAROLINA HERRERA WOMAN",
-        "tendencia_olfativa": "Floral Blanco, Cítrico, Almizclado",
-        "referencia": "./img/dd001.png",
-        "componentes": [
-          "Almizcle",
-          "Azucena",
-          "Flor de Azahar"
-        ],
-        "venta_300": 30,
-        "venta_500": 50,
-        "venta_700": 70
-      },
-      {
-        "codigo": "DD002",
-        "genero": "Femenino",
-        "nombre": "212 SEXY WOMAN CAROLINA HERRERA",
-        "tendencia_olfativa": "Dulce, Almizclado, Avainillado",
-        "referencia": "./img/dd002.png",
-        "componentes": [
-          "Pimienta Rosa",
-          "Vainilla",
-          "Algodón de Azucar"
-        ],
-        "venta_300": 30,
-        "venta_500": 50,
-        "venta_700": 70
-      },
-      {
-        "codigo": "DD003",
-        "genero": "Femenino",
-        "nombre": "360º  WOMAN PERRY ELLIS",
-        "tendencia_olfativa": "Florales, Acuático, Aromático",
-        "referencia": "./img/dd003.png",
-        "componentes": [
-          "Azucena",
-          "Melón",
-          "Lirio de Agua"
-        ],
-        "venta_300": 30,
-        "venta_500": 50,
-        "venta_700": 70
-      },
-      {
-        "codigo": "DD004",
-        "genero": "Femenino",
-        "nombre": "212 ON ICE WOMAN CAROLINA HERRERA",
-        "tendencia_olfativa": "Cítricos, Rosas, Floral, Blanco",
-        "referencia": "./img/dd004.png",
-        "componentes": [
-          "Mandarina",
-          "Rosa",
-          "Toronja"
-        ],
-        "venta_300": 30,
-        "venta_500": 50,
-        "venta_700": 70
-      },
-      {
-        "codigo": "DD005",
-        "genero": "Femenino",
-        "nombre": "212 VIP WOMAN CAROLINA HEERERA",
-        "tendencia_olfativa": "Balsámico Tropical",
-        "referencia": "./img/dd005.png",
-        "componentes": [
-          "Dulce",
-          "Ron Avainillado"
-        ],
-        "venta_300": 30,
-        "venta_500": 50,
-        "venta_700": 70
-      },
-      {
-        "codigo": "DD006",
-        "genero": "Femenino",
-        "nombre": "212 VIP ROSE CAROLINA HERRERA",
-        "tendencia_olfativa": "Afrutados, Florales, Amaderado",
-        "referencia": "./img/dd006.png",
-        "componentes": [
-          "Champaña",
-          "Notas Frutadas",
-          "Flor de Duraznero"
-        ],
-        "venta_300": 30,
-        "venta_500": 50,
-        "venta_700": 70
-      },
-      {
-        "codigo": "DD007",
-        "genero": "Femenino",
-        "nombre": "ACQUA DI GIO WOMAN GIORGIO ARMANI",
-        "tendencia_olfativa": "Florales, Verde, Fresco",
-        "referencia": "./img/dd007.png",
-        "componentes": [
-          "Peonia",
-          "Vodka",
-          "Lirios"
-        ],
-        "venta_300": 30,
-        "venta_500": 50,
-        "venta_700": 70
-      },
-      {
-        "codigo": "DD008",
-        "genero": "Femenino",
-        "nombre": "AIRES DEL TIEMPO NINA RICCI",
-        "tendencia_olfativa": "Cálido Especiado, Florales, Amaderado",
-        "referencia": "./img/dd008.png",
-        "componentes": [
-          "Clavel",
-          "Clavos de Olor",
-          "Aldehidos"
-        ],
-        "venta_300": 30,
-        "venta_500": 50,
-        "venta_700": 70
-      },
-      {
-        "codigo": "DD009",
-        "genero": "Femenino",
-        "nombre": "AMOR AMOR WOMAN CACHAREL",
-        "tendencia_olfativa": "Cítricos, Afrutados, Amaderado",
-        "referencia": "./img/dd009.png",
-        "componentes": [
-          "Grosellas Negras",
-          "Vainilla",
-          "Naranja"
-        ],
-        "venta_300": 30,
-        "venta_500": 50,
-        "venta_700": 70
-      }
+  },
+  {
+      "codigo": "CC005",
+      "genero": "Masculino",
+      "nombre": "212 MEN SPORT CAROLINA HERRERA",
+      "tendencia_olfativa": "Aromático, Amaderado, Cítricos",
+      "referencia": "./img/cc005.png",
+      "componentes": ["Toronja", "Vetiver", "Notas Marinas"],
+      "venta_300": 30,
+      "venta_500": 50,
+      "venta_700": 70
+  },
+  {
+      "codigo": "CC006",
+      "genero": "Masculino",
+      "nombre": "360 GRADOS RED PERRY ELLIS",
+      "tendencia_olfativa": "Cítrico Fresco, Especiado, Cálido",
+      "referencia": "./img/cc006.png",
+      "componentes": ["Lima", "Limón Verde", "Bergamota", "Canela"],
+      "venta_300": 43,
+      "venta_500": 65,
+      "venta_700": 90
+  },
+  {
+      "codigo": "CC007",
+      "genero": "Masculino",
+      "nombre": "212 HEROES CH CAROLINA HERRERA",
+      "tendencia_olfativa": "Aromático, Afrutado, Herbal",
+      "referencia": "./img/cc007.png",
+      "componentes": ["Pera", "Cannabis", "Salvia", "Almizcle"],
+      "venta_300": 44,
+      "venta_500": 66,
+      "venta_700": 92
+  },
+  {
+      "codigo": "CC008",
+      "genero": "Masculino",
+      "nombre": "ACQUA DI GIO MEN GIORGIO ARMANI",
+      "tendencia_olfativa": "Cítricos, Aromático, Marino",
+      "referencia": "./img/cc008.png",
+      "componentes": ["Notas Marinas", "Limón", "Jazmín"],
+      "venta_300": 30,
+      "venta_500": 50,
+      "venta_700": 70
+  },
+  {
+      "codigo": "CC009",
+      "genero": "Masculino",
+      "nombre": "ALTITUDE SWISS ARMY",
+      "tendencia_olfativa": "Aromático, Amaderado, Verde",
+      "referencia": "./img/cc009.png",
+      "componentes": ["Salvia", "Menta", "Madera de Cedro"],
+      "venta_300": 30,
+      "venta_500": 50,
+      "venta_700": 70
+  },
+  {
+      "codigo": "CC011",
+      "genero": "Masculino",
+      "nombre": "AZZARO MEN",
+      "tendencia_olfativa": "Amaderado, Verde, Tropical",
+      "referencia": "./img/cc011.png",
+      "componentes": ["Papaya", "Marihuana", "Ciprés Hinoki"],
+      "venta_300": 30,
+      "venta_500": 50,
+      "venta_700": 70
+  },
 
-  ]
+  {
+      "codigo": "CC012",
+      "genero": "Masculino",
+      "nombre": "ALLURE SPORT MEN CHANEL",
+      "tendencia_olfativa": "Cítricos, Aromático, Aldehídico",
+      "referencia": "./img/cc012.png",
+      "componentes": ["Naranja", "Notas Marinas", "Aldehídico"],
+      "venta_300": 30,
+      "venta_500": 50,
+      "venta_700": 70
+  },
+  {
+      "codigo": "CC013",
+      "genero": "Masculino",
+      "nombre": "AMOR POUR HOMME CACHAREL",
+      "tendencia_olfativa": "Cálido Especiado, Aromático, Verde",
+      "referencia": "./img/cc013.png",
+      "componentes": ["Rosa", "Té", "Especias"],
+      "venta_300": 30,
+      "venta_500": 50,
+      "venta_700": 70
+  },
+  {
+      "codigo": "CC016",
+      "genero": "Masculino",
+      "nombre": "ACQUA DI GIO PROFONDO GIORGIO ARMANI",
+      "tendencia_olfativa": "Fresco, Amaderado, Cítrico",
+      "referencia": "./img/cc016.png",
+      "componentes": ["Bergamota", "Romero", "Pachulí"],
+      "venta_300": 44,
+      "venta_500": 66,
+      "venta_700": 92
+  },
+  {
+      "codigo": "CC017",
+      "genero": "Masculino",
+      "nombre": "BLACK CODE MEN GIORGIO ARMANI",
+      "tendencia_olfativa": "Cítricos, Cuero, Aromático",
+      "referencia": "./img/cc017.png",
+      "componentes": ["Flor de Olivo", "Cuero", "Anís Estrellado"],
+      "venta_300": 30,
+      "venta_500": 50,
+      "venta_700": 70
+  },
+  {
+      "codigo": "CC018",
+      "genero": "Masculino",
+      "nombre": "BLACK XS PACO RABANNE",
+      "tendencia_olfativa": "Dulce, Cálido Especiado, Cítricos",
+      "referencia": "./img/cc018.png",
+      "componentes": ["Oriental Amaderado"],
+      "venta_300": 30,
+      "venta_500": 50,
+      "venta_700": 70
+  },
+  {
+      "codigo": "CC019",
+      "genero": "Masculino",
+      "nombre": "BLUE JEANS MEN VERSACE",
+      "tendencia_olfativa": "Aromático, Fresco, Especiado, Amaderado",
+      "referencia": "./img/cc019.png",
+      "componentes": ["Lavanda", "Vainilla", "Cítrico"],
+      "venta_300": 30,
+      "venta_500": 50,
+      "venta_700": 70
+  },
+  {
+      "codigo": "CC020",
+      "genero": "Masculino",
+      "nombre": "BOSS IN MOTION HUGO BOSS",
+      "tendencia_olfativa": "Cítricos, Fresco Especiado, Cálido Especiado",
+      "referencia": "./img/cc020.png",
+      "componentes": ["Naranja", "Pimienta Rosa", "Canela"],
+      "venta_300": 30,
+      "venta_500": 50,
+      "venta_700": 70
+  },
+  {
+      "codigo": "CC022",
+      "genero": "Masculino",
+      "nombre": "BVLGARI BLACK MEN BVLGARI",
+      "tendencia_olfativa": "Cuero, Oud, Cálido Especiado",
+      "referencia": "./img/cc022.png",
+      "componentes": ["Cuero", "Ron", "Madera de Oud"],
+      "venta_300": 30,
+      "venta_500": 50,
+      "venta_700": 70
+  },
+  {
+      "codigo": "CC023",
+      "genero": "Masculino",
+      "nombre": "BLUE SEDUCTION MEN ANTONIO BANDERAS",
+      "tendencia_olfativa": "Acuático, Verde, Cítrico",
+      "referencia": "./img/cc023.png",
+      "componentes": ["Notas Acuáticas", "Limón de Almafi", "Menta"],
+      "venta_300": 43,
+      "venta_500": 65,
+      "venta_700": 90
+  },
+  {
+      "codigo": "CC024",
+      "genero": "Masculino",
+      "nombre": "BLEU CHANEL",
+      "tendencia_olfativa": "Cítricos, Fresco Especiado, Balsámico",
+      "referencia": "./img/cc024.png",
+      "componentes": ["Toronja", "Incienso", "Jengibre"],
+      "venta_300": 43,
+      "venta_500": 65,
+      "venta_700": 90
+  },
+
+  {
+      "codigo": "CC025",
+      "genero": "Masculino",
+      "nombre": "BOSS BOTTLE MEN HUGO BOSS",
+      "tendencia_olfativa": "Amaderado, Afrutado, Avainillado",
+      "referencia": "./img/cc025.png",
+      "componentes": ["Vainilla", "Manzana", "Canela"],
+      "venta_300": 43,
+      "venta_500": 65,
+      "venta_700": 90
+  },
+  {
+      "codigo": "CC026",
+      "genero": "Masculino",
+      "nombre": "BAD BOY CAROLINA HERRERA",
+      "tendencia_olfativa": "Fresco Especiado",
+      "referencia": "./img/cc026.png",
+      "componentes": ["Haba Tonka", "Cacao", "Amberwood", "Bergamota"],
+      "venta_300": 44,
+      "venta_500": 66,
+      "venta_700": 92
+  },
+  {
+      "codigo": "CC028",
+      "genero": "Masculino",
+      "nombre": "CHIC FOR MEN CAROLINA HERRERA",
+      "tendencia_olfativa": "Cálido Especiado, Fresco Especiado, Cítricos",
+      "referencia": "./img/cc028.png",
+      "componentes": ["Sandía", "Pimienta", "Canela"],
+      "venta_300": 30,
+      "venta_500": 50,
+      "venta_700": 70
+  },
+  {
+      "codigo": "CC029",
+      "genero": "Masculino",
+      "nombre": "CK ONE MEN CALVIN KLEIN",
+      "tendencia_olfativa": "Cítricos, Verde, Amaderado",
+      "referencia": "./img/cc029.png",
+      "componentes": ["Limón", "Notas Verdes", "Bergamota"],
+      "venta_300": 30,
+      "venta_500": 50,
+      "venta_700": 70
+  },
+  {
+      "codigo": "CC032",
+      "genero": "Masculino",
+      "nombre": "COOLWATER MEN DAVIDOFF",
+      "tendencia_olfativa": "Aromático, Marino, Verde",
+      "referencia": "./img/cc032.png",
+      "componentes": ["Notas Marinas", "Toronja", "Salvia", "Mandarina"],
+      "venta_300": 30,
+      "venta_500": 50,
+      "venta_700": 70
+  },
+  {
+      "codigo": "CC033",
+      "genero": "Masculino",
+      "nombre": "CH MEN CAROLINA HERRERA",
+      "tendencia_olfativa": "Cuero, Amaderado, Dulce",
+      "referencia": "./img/cc033.png",
+      "componentes": ["Azúcar", "Cuero", "Vainilla"],
+      "venta_300": 30,
+      "venta_500": 50,
+      "venta_700": 70
+  },
+  {
+      "codigo": "CC034",
+      "genero": "Masculino",
+      "nombre": "CREED AVENTUS",
+      "tendencia_olfativa": "Afrutado, Dulce, Cuero, Amaderado",
+      "referencia": "./img/cc034.png",
+      "componentes": ["Piña", "Grosellas Negras", "Bergamota", "Manzana"],
+      "venta_300": 44,
+      "venta_500": 66,
+      "venta_700": 92
+  },
+  {
+      "codigo": "CC035",
+      "genero": "Masculino",
+      "nombre": "DIESEL FUEL FOR LIFE",
+      "tendencia_olfativa": "Cítricos, Dulce, Especiado Suave",
+      "referencia": "./img/cc035.png",
+      "componentes": ["Limón", "Regaliz", "Jazmín"],
+      "venta_300": 30,
+      "venta_500": 50,
+      "venta_700": 70
+  },
+  {
+      "codigo": "CC036",
+      "genero": "Masculino",
+      "nombre": "DOLCE & GABBANA BY DOLCE & GABBANA",
+      "tendencia_olfativa": "Aromático, Fresco Especiado, Cítricos",
+      "referencia": "./img/cc036.png",
+      "componentes": ["Lavanda", "Limón", "Pimienta"],
+      "venta_300": 30,
+      "venta_500": 50,
+      "venta_700": 70
+  },
+  {
+      "codigo": "CC037",
+      "genero": "Masculino",
+      "nombre": "DRAKKAR NOIR MEN",
+      "tendencia_olfativa": "Aromático, Amaderado, Fresco Especiado",
+      "referencia": "./img/cc037.png",
+      "componentes": ["Lavanda", "Musgo de Roble", "Cuero"],
+      "venta_300": 30,
+      "venta_500": 50,
+      "venta_700": 70
+  },
+
+  {
+      "codigo": "CC041",
+      "genero": "Masculino",
+      "nombre": "EMPORIO EL MEN GIORGIO ARMANI",
+      "tendencia_olfativa": "Amaderado, Cálido Especiado, Cacao",
+      "referencia": "./img/cc041.png",
+      "componentes": ["Cacao", "Bergamota", "Ámbar"],
+      "venta_300": 30,
+      "venta_500": 50,
+      "venta_700": 70
+  },
+  {
+      "codigo": "CC043",
+      "genero": "Masculino",
+      "nombre": "ETERNITY MEN CALVIN KLEIN",
+      "tendencia_olfativa": "Aromático, Verde, Fresco Especiado",
+      "referencia": "./img/cc043.png",
+      "componentes": ["Salvia", "Notas Verdes", "Salvia"],
+      "venta_300": 30,
+      "venta_500": 50,
+      "venta_700": 70
+  },
+  {
+      "codigo": "CC044",
+      "genero": "Masculino",
+      "nombre": "EGOISTE MEN CHANEL",
+      "tendencia_olfativa": "Amaderado, Cálido Especiado, Canela",
+      "referencia": "./img/cc044.png",
+      "componentes": ["Canela", "Sándalo", "Rosa de Damasco"],
+      "venta_300": 30,
+      "venta_500": 50,
+      "venta_700": 70
+  },
+  {
+      "codigo": "CC045",
+      "genero": "Masculino",
+      "nombre": "ESCAPE MEN CALVIN KLEIN",
+      "tendencia_olfativa": "Amaderado, Aromático, Fresco Especiado",
+      "referencia": "./img/cc045.png",
+      "componentes": ["Melón", "Notas Marinas", "Eucalipto"],
+      "venta_300": 30,
+      "venta_500": 50,
+      "venta_700": 70
+  },
+  {
+      "codigo": "CC046",
+      "genero": "Masculino",
+      "nombre": "EUPHORIA MEN CALVIN KLEIN",
+      "tendencia_olfativa": "Aromático, Balsámico, Ambarado",
+      "referencia": "./img/cc046.png",
+      "componentes": ["Ámbar", "Incienso", "Miel"],
+      "venta_300": 30,
+      "venta_500": 50,
+      "venta_700": 70
+  },
+  {
+      "codigo": "CC047",
+      "genero": "Masculino",
+      "nombre": "EROS VERSACE",
+      "tendencia_olfativa": "Avainillado, Aromático, Verde",
+      "referencia": "./img/cc047.png",
+      "componentes": ["Menta", "Haba Tonka", "Vainilla"],
+      "venta_300": 44,
+      "venta_500": 66,
+      "venta_700": 92
+  },
+  {
+      "codigo": "CC048",
+      "genero": "Masculino",
+      "nombre": "ENCOUNTER CALVIN KLEIN",
+      "tendencia_olfativa": "Cálido Especiado, Amaderado, Ron",
+      "referencia": "./img/cc048.png",
+      "componentes": ["Coñac", "Ron", "Cardamomo"],
+      "venta_300": 30,
+      "venta_500": 50,
+      "venta_700": 70
+  },
+  {
+      "codigo": "CC049",
+      "genero": "Masculino",
+      "nombre": "SCANDAL MEN JPG",
+      "tendencia_olfativa": "Caramelo, Aromático, Dulce, Avainillado",
+      "referencia": "./img/cc049.png",
+      "componentes": ["Mandarina", "Caramelo", "Vetiver"],
+      "venta_300": 44,
+      "venta_500": 66,
+      "venta_700": 92
+  },
+  {
+      "codigo": "CC050",
+      "genero": "Masculino",
+      "nombre": "FAHRENHEIT MEN CHRISTIAN DIOR",
+      "tendencia_olfativa": "Cuero, Fresco Especiado, Amaderado",
+      "referencia": "./img/cc050.png",
+      "componentes": ["Cuero", "Hojas de Violeta", "Lavanda", "Cedro"],
+      "venta_300": 30,
+      "venta_500": 50,
+      "venta_700": 70
+  },
+  {
+      "codigo": "CC051",
+      "genero": "Masculino",
+      "nombre": "FERRARI BLACK MEN",
+      "tendencia_olfativa": "Afrutado, Dulce, Avainillado",
+      "referencia": "./img/cc051.png",
+      "componentes": ["Manzana Roja", "Ciruela", "Vainilla"],
+      "venta_300": 30,
+      "venta_500": 50,
+      "venta_700": 70
+  },
+  {
+    "codigo": "CC054",
+    "genero": "Masculino",
+    "nombre": "FIERCE ABERCROMBIE",
+    "tendencia_olfativa": "Amaderado, Aromático, Cítrico",
+    "referencia": "./img/cc054.png",
+    "componentes": ["Almizcle", "Abeto (planta)", "Limón"],
+    "venta_300": 30,
+    "venta_500": 50,
+    "venta_700": 70
+},
+{
+    "codigo": "CC055",
+    "genero": "Masculino",
+    "nombre": "PHANTOM PACO RABANNE",
+    "tendencia_olfativa": "Cítrico, Avainillado, Lavanda",
+    "referencia": "./img/cc055.png",
+    "componentes": ["Lavanda", "Limón", "Manzana", "Vainilla"],
+    "venta_300": 44,
+    "venta_500": 66,
+    "venta_700": 92
+},
+{
+    "codigo": "CC057",
+    "genero": "Masculino",
+    "nombre": "GAULTIER2 JEAN PAUL GAULTIER",
+    "tendencia_olfativa": "Ambarado, Avainillado, Almizclado",
+    "referencia": "./img/cc057.png",
+    "componentes": ["Ámbar", "Vainilla", "Almizcle"],
+    "venta_300": 30,
+    "venta_500": 50,
+    "venta_700": 70
+},
+{
+    "codigo": "CC058",
+    "genero": "Masculino",
+    "nombre": "GUCCI MEN",
+    "tendencia_olfativa": "Amaderado, Tabaco, Aromático",
+    "referencia": "./img/cc058.png",
+    "componentes": ["Tabaco", "Ciprés", "Violeta"],
+    "venta_300": 30,
+    "venta_500": 50,
+    "venta_700": 70
+},
+{
+    "codigo": "CC059",
+    "genero": "Masculino",
+    "nombre": "GUILTY BLACK GUCCI",
+    "tendencia_olfativa": "Aromático, Flor Blanco, Verde",
+    "referencia": "./img/cc059.png",
+    "componentes": ["Notas Verdes", "Flor de Azahar", "Lavanda"],
+    "venta_300": 30,
+    "venta_500": 50,
+    "venta_700": 70
+},
+{
+    "codigo": "CC060",
+    "genero": "Masculino",
+    "nombre": "GENTLEMAN GIVENCHY",
+    "tendencia_olfativa": "Pachuli, Amaderado, Terroso",
+    "referencia": "./img/cc060.png",
+    "componentes": ["Pachuli", "Miel", "Cuero"],
+    "venta_300": 30,
+    "venta_500": 50,
+    "venta_700": 70
+},
+{
+    "codigo": "CC061",
+    "genero": "Masculino",
+    "nombre": "HALSTON Z14 MEN",
+    "tendencia_olfativa": "Amaderado, Aromático, Cítrico",
+    "referencia": "./img/cc061.png",
+    "componentes": ["Canela", "Limón", "Ciprés"],
+    "venta_300": 30,
+    "venta_500": 50,
+    "venta_700": 70
+},
+{
+    "codigo": "CC062",
+    "genero": "Masculino",
+    "nombre": "HAPPY MEN CLINIQUE",
+    "tendencia_olfativa": "Cítricos, Verdes, Aromáticos",
+    "referencia": "./img/cc062.png",
+    "componentes": ["Mandarina", "Limón", "Notas Marinas"],
+    "venta_300": 30,
+    "venta_500": 50,
+    "venta_700": 70
+},
+{
+    "codigo": "CC064",
+    "genero": "Masculino",
+    "nombre": "HUGO DARK BLUE HUGO BOSS",
+    "tendencia_olfativa": "Cítrico, Fresco Especiado, Amaderado",
+    "referencia": "./img/cc064.png",
+    "componentes": ["Jengibre", "Toronja"],
+    "venta_300": 30,
+    "venta_500": 50,
+    "venta_700": 70
+},
+{
+    "codigo": "CC065",
+    "genero": "Masculino",
+    "nombre": "HUGO ENERGISE MEN HUGO BOSS",
+    "tendencia_olfativa": "Cítrico, Aromático, Especiado Suave",
+    "referencia": "./img/cc065.png",
+    "componentes": ["Pimienta Rosa", "Limón", "Hojas de Piña"],
+    "venta_300": 30,
+    "venta_500": 50,
+    "venta_700": 70
+},
+{
+  "codigo": "CC066",
+  "genero": "Masculino",
+  "nombre": "HUGO MEN HUGO BOSS",
+  "tendencia_olfativa": "Aromático, Fresco Especiado, Amaderado",
+  "referencia": "./img/cc066.png",
+  "componentes": ["Abeto Balsámico", "Manzana Verde", "Cedro"],
+  "venta_300": 30,
+  "venta_500": 50,
+  "venta_700": 70
+},
+{
+  "codigo": "CC067",
+  "genero": "Masculino",
+  "nombre": "HUMMER",
+  "tendencia_olfativa": "Cálido Especiado, Aromático, Balsámico",
+  "referencia": "./img/cc067.png",
+  "componentes": ["Cuero", "Ámbar", "Cardamomo"],
+  "venta_300": 30,
+  "venta_500": 50,
+  "venta_700": 70
+},
+{
+  "codigo": "CC068",
+  "genero": "Masculino",
+  "nombre": "HUGO XY MEN HUGO BOSS",
+  "tendencia_olfativa": "Verde, Fresco Especiado, Amaderado",
+  "referencia": "./img/cc068.png",
+  "componentes": ["Hojas de Pera", "Menta", "Albahaca"],
+  "venta_300": 30,
+  "venta_500": 50,
+  "venta_700": 70
+},
+{
+  "codigo": "CC069",
+  "genero": "Masculino",
+  "nombre": "HUGO ELEMENT HUGO BOSS",
+  "tendencia_olfativa": "Acuático, Fresco, Cítricos",
+  "referencia": "./img/cc069.png",
+  "componentes": ["Notas Acuáticas", "Cítricos", "Jengibre"],
+  "venta_300": 30,
+  "venta_500": 50,
+  "venta_700": 70
+},
+{
+  "codigo": "CC072",
+  "genero": "Masculino",
+  "nombre": "INDIVIDUEL MEN MONT BLANC",
+  "tendencia_olfativa": "Dulce, Aromático, Amaderado",
+  "referencia": "./img/cc072.png",
+  "componentes": ["Frambuesa", "Vainilla", "Canela"],
+  "venta_300": 30,
+  "venta_500": 50,
+  "venta_700": 70
+},
+{
+  "codigo": "CC073",
+  "genero": "Masculino",
+  "nombre": "INVICTUS MEN PACO RABANNE",
+  "tendencia_olfativa": "Cítricos, Marino, Aromático",
+  "referencia": "./img/cc073.png",
+  "componentes": ["Notas Marinas", "Toronja", "Laurel"],
+  "venta_300": 43,
+  "venta_500": 65,
+  "venta_700": 90
+},
+{
+  "codigo": "CC074",
+  "genero": "Masculino",
+  "nombre": "INVICTUS INTENSE PACO RABANNE",
+  "tendencia_olfativa": "Ambarado, Fresco Especiado, Whisky",
+  "referencia": "./img/cc074.png",
+  "componentes": ["Whisky", "Ámbar", "Flor de Azahar del Naranjo"],
+  "venta_300": 43,
+  "venta_500": 65,
+  "venta_700": 90
+},
+{
+  "codigo": "CC075",
+  "genero": "Masculino",
+  "nombre": "INVICTUS VICTORY PACO RABANNE",
+  "tendencia_olfativa": "Avainillado, Ámbar, Dulce, Aromático",
+  "referencia": "./img/cc075.png",
+  "componentes": ["Pimienta Rosa", "Limón", "Lavanda", "Vainilla"],
+  "venta_300": 44,
+  "venta_500": 66,
+  "venta_700": 92
+},
+{
+  "codigo": "CC076",
+  "genero": "Masculino",
+  "nombre": "JEAN PAUL GAULTIER LE MALE MEN",
+  "tendencia_olfativa": "Aromático, Fresco Especiado, Avainillado",
+  "referencia": "./img/cc076.png",
+  "componentes": ["Vainilla", "Lavanda", "Menta"],
+  "venta_300": 30,
+  "venta_500": 50,
+  "venta_700": 70
+},
+{
+  "codigo": "CC078",
+  "genero": "Masculino",
+  "nombre": "JOOP HOME MEN",
+  "tendencia_olfativa": "Fresco Especiado, Aromático, Verde",
+  "referencia": "./img/cc078.png",
+  "componentes": ["Pimienta", "Jengibre", "Caoba"],
+  "venta_300": 30,
+  "venta_500": 50,
+  "venta_700": 70
+},
+{
+  "codigo": "CC081",
+  "genero": "Masculino",
+  "nombre": "KOUROS MEN YVES SAINT LAURENT YSL",
+  "tendencia_olfativa": "Almizclado, Atalcado, Amaderado",
+  "referencia": "./img/cc081.png",
+  "componentes": ["Miel", "Cuero", "Almizcle"],
+  "venta_300": 30,
+  "venta_500": 50,
+  "venta_700": 70
+},
+{
+  "codigo": "CC082",
+  "genero": "Masculino",
+  "nombre": "L'EAU D'ISSEY ISSEY MIYAKE",
+  "tendencia_olfativa": "Cítricos, Aromático, Fresco Especiado",
+  "referencia": "./img/cc082.png",
+  "componentes": ["Limón", "Flor de Loto", "Nuez Moscada"],
+  "venta_300": 30,
+  "venta_500": 50,
+  "venta_700": 70
+},
+{
+  "codigo": "CC084",
+  "genero": "Masculino",
+  "nombre": "LACOSTE ESSENTIAL MEN LACOSTE",
+  "tendencia_olfativa": "Cítricos, Fresco Especiado, Acuático",
+  "referencia": "./img/cc084.png",
+  "componentes": ["Toronja", "Bergamota", "Notas Acuáticas"],
+  "venta_300": 30,
+  "venta_500": 50,
+  "venta_700": 70
+},
+{
+  "codigo": "CC085",
+  "genero": "Masculino",
+  "nombre": "LACOSTE RED MEN LACOSTE",
+  "tendencia_olfativa": "Fresco Especiado, Tropical, Afrutados",
+  "referencia": "./img/cc085.png",
+  "componentes": ["Mango", "Té", "Mandarina"],
+  "venta_300": 30,
+  "venta_500": 50,
+  "venta_700": 70
+},
+{
+  "codigo": "CC086",
+  "genero": "Masculino",
+  "nombre": "LAGERFELD MEN KARL LAGERFELD",
+  "tendencia_olfativa": "Amaderado, Aromático, Fresco Especiado",
+  "referencia": "./img/cc086.png",
+  "componentes": ["Cedro", "Madera Blanca", "Lavanda"],
+  "venta_300": 30,
+  "venta_500": 50,
+  "venta_700": 70
+},
+{
+  "codigo": "CC087",
+  "genero": "Masculino",
+  "nombre": "LIGHT BLUE MEN DOLCE & GABBANA",
+  "tendencia_olfativa": "Afrutados, Almizclado, Florales",
+  "referencia": "./img/cc087.png",
+  "componentes": ["Lichi", "Osmanthus", "Almizcle"],
+  "venta_300": 30,
+  "venta_500": 50,
+  "venta_700": 70
+},
+{
+  "codigo": "CC088",
+  "genero": "Masculino",
+  "nombre": "LACOSTE INTENSE LACOSTE",
+  "tendencia_olfativa": "Cítrico, Afrutado, Dulce",
+  "referencia": "./img/cc088.png",
+  "componentes": ["Naranja", "Piña", "Vainilla"],
+  "venta_300": 30,
+  "venta_500": 50,
+  "venta_700": 70
+},
+{
+  "codigo": "CC090",
+  "genero": "Masculino",
+  "nombre": "MINOTAURE MEN PALOMA PICASSO",
+  "tendencia_olfativa": "Aromático, Balsámico, Amaderado",
+  "referencia": "./img/cc090.png",
+  "componentes": ["Notas Afrutadas", "Vainilla", "Sándalo"],
+  "venta_300": 30,
+  "venta_500": 50,
+  "venta_700": 70
+},
+{
+  "codigo": "CC093",
+  "genero": "Masculino",
+  "nombre": "MATCH POINT LACOSTE",
+  "tendencia_olfativa": "Aromático, Fresco Especiado, Amaderado",
+  "referencia": "./img/cc093.png",
+  "componentes": ["Albahaca", "Toronja", "Vetiver"],
+  "venta_300": 44,
+  "venta_500": 66,
+  "venta_700": 92
+},
+{
+  "codigo": "CC096",
+  "genero": "Masculino",
+  "nombre": "OBSESSION MEN CALVIN KLEIN",
+  "tendencia_olfativa": "Cálido Especiado, Balsámico, Amaderado",
+  "referencia": "./img/cc096.png",
+  "componentes": ["Canela", "Ámbar", "Vainilla"],
+  "venta_300": 30,
+  "venta_500": 50,
+  "venta_700": 70
+},
+
+{
+  "codigo": "CC097",
+  "genero": "Masculino",
+  "nombre": "ONE MILLION MEN PACO RABANNE",
+  "tendencia_olfativa": "Cálido, Especiado, Cítrico",
+  "referencia": "./img/cc097.png",
+  "componentes": ["Mandarina", "Canela", "Rosa", "Ámbar"],
+  "venta_300": 43,
+  "venta_500": 65,
+  "venta_700": 90
+},
+{
+  "codigo": "CC098",
+  "genero": "Masculino",
+  "nombre": "ONE MILLION INTENSE MEN PACO RABANNE",
+  "tendencia_olfativa": "Cálido, Especiado, Cítrico",
+  "referencia": "./img/cc098.png",
+  "componentes": ["Rosa", "Cuero", "Sándalo", "Pimienta Negra"],
+  "venta_300": 43,
+  "venta_500": 65,
+  "venta_700": 90
+},
+{
+  "codigo": "CC099",
+  "genero": "Masculino",
+  "nombre": "OBSESSED CALVIN KLEIN",
+  "tendencia_olfativa": "Cálido Especiado, Ambarado, Cítricos",
+  "referencia": "./img/cc099.png",
+  "componentes": ["Vaina de Vainilla", "Cuero", "Pimienta"],
+  "venta_300": 30,
+  "venta_500": 50,
+  "venta_700": 70
+},
+{
+  "codigo": "CC100",
+  "genero": "Masculino",
+  "nombre": "PACO MEN PACO RABANNE",
+  "tendencia_olfativa": "Cítricos, Aromático, Verde",
+  "referencia": "./img/cc100.png",
+  "componentes": ["Limón", "Té", "Mandarina"],
+  "venta_300": 30,
+  "venta_500": 50,
+  "venta_700": 70
+},
+{
+  "codigo": "CC101",
+  "genero": "Masculino",
+  "nombre": "PARIS HILTON MEN",
+  "tendencia_olfativa": "Tropical, Afrutado, Dulce",
+  "referencia": "./img/cc101.png",
+  "componentes": ["Mango", "Almizcle", "Salvia"],
+  "venta_300": 30,
+  "venta_500": 50,
+  "venta_700": 70
+},
+{
+  "codigo": "CC102",
+  "genero": "Masculino",
+  "nombre": "PI MEN GIVENCHY",
+  "tendencia_olfativa": "Avainillado, Aromático, Balsámico",
+  "referencia": "./img/cc102.png",
+  "componentes": ["Vainilla", "Almendra", "Mandarina"],
+  "venta_300": 30,
+  "venta_500": 50,
+  "venta_700": 70
+},
+{
+  "codigo": "CC103",
+  "genero": "Masculino",
+  "nombre": "POLO BLACK MEN RALPH LAURENT",
+  "tendencia_olfativa": "Tropical, Afrutado, Dulce",
+  "referencia": "./img/cc103.png",
+  "componentes": ["Mango", "Sándalo", "Naranja"],
+  "venta_300": 30,
+  "venta_500": 50,
+  "venta_700": 70
+},
+{
+  "codigo": "CC104",
+  "genero": "Masculino",
+  "nombre": "POLO BLUE MEN RALPH LAURENT",
+  "tendencia_olfativa": "Ozónico, Acuático, Fresco Especiado",
+  "referencia": "./img/cc104.png",
+  "componentes": ["Pepino", "Melón", "Gamuza"],
+  "venta_300": 30,
+  "venta_500": 50,
+  "venta_700": 70
+},
+{
+  "codigo": "CC105",
+  "genero": "Masculino",
+  "nombre": "POLO EXPLORER MEN RALPH LAURENT",
+  "tendencia_olfativa": "Amaderado, Cítrico, Aromático",
+  "referencia": "./img/cc105.png",
+  "componentes": ["Sándalo", "Mandarina", "Ámbar"],
+  "venta_300": 30,
+  "venta_500": 50,
+  "venta_700": 70
+},
+{
+  "codigo": "CC106",
+  "genero": "Masculino",
+  "nombre": "POLO SPORT MEN RALPH LAURENT",
+  "tendencia_olfativa": "Aromático, Fresco Especiado, Cítricos",
+  "referencia": "./img/cc106.png",
+  "componentes": ["Menta", "Aldeídos", "Lavanda"],
+  "venta_300": 30,
+  "venta_500": 50,
+  "venta_700": 70
+},
+
+{
+  "codigo": "CC107",
+  "genero": "Masculino",
+  "nombre": "POLO DOUBLE BLACK MEN RALPH LAURENT",
+  "tendencia_olfativa": "Fresco Especiado, Cálido Especiado, Tropical",
+  "referencia": "./img/cc107.png",
+  "componentes": ["Mango", "Granos de Café", "Pimienta"],
+  "venta_300": 30,
+  "venta_500": 50,
+  "venta_700": 70
+},
+{
+  "codigo": "CC108",
+  "genero": "Masculino",
+  "nombre": "PRESENCE MEN MONT BLANC",
+  "tendencia_olfativa": "Cálido Especiado, Aromático, Canela",
+  "referencia": "./img/cc108.png",
+  "componentes": ["Canela", "Manzana", "Jengibre"],
+  "venta_300": 30,
+  "venta_500": 50,
+  "venta_700": 70
+},
+{
+  "codigo": "CC110",
+  "genero": "Masculino",
+  "nombre": "QUORUM",
+  "tendencia_olfativa": "Amaderado, Cálido, Especiado",
+  "referencia": "./img/cc110.png",
+  "componentes": ["Lavanda", "Jengibre", "Cardamomo"],
+  "venta_300": 30,
+  "venta_500": 50,
+  "venta_700": 70
+},
+{
+  "codigo": "CC114",
+  "genero": "Masculino",
+  "nombre": "STARWALKER MEN MONT BLANC",
+  "tendencia_olfativa": "Amaderado, Cítrico, Fresco Especiado",
+  "referencia": "./img/cc114.png",
+  "componentes": ["Bambú", "Mandarina", "Sándalo"],
+  "venta_300": 43,
+  "venta_500": 65,
+  "venta_700": 90
+},
+{
+  "codigo": "CC115",
+  "genero": "Masculino",
+  "nombre": "SWISS ARMY MEN",
+  "tendencia_olfativa": "Aromático, Fresco Especiado, Verde",
+  "referencia": "./img/cc115.png",
+  "componentes": ["Lavanda", "Menta", "Ciprés"],
+  "venta_300": 43,
+  "venta_500": 65,
+  "venta_700": 90
+},
+{
+  "codigo": "CC116",
+  "genero": "Masculino",
+  "nombre": "SAUVAGE CHRISTIAN DIOR",
+  "tendencia_olfativa": "Cítrico, Amaderado",
+  "referencia": "./img/cc116.png",
+  "componentes": ["Sándalo", "Incienso", "Bergamota"],
+  "venta_300": 44,
+  "venta_500": 66,
+  "venta_700": 92
+},
+{
+  "codigo": "CC117",
+  "genero": "Masculino",
+  "nombre": "TED LAPIDUS MEN",
+  "tendencia_olfativa": "Amaderado, Dulce, Balsámico",
+  "referencia": "./img/cc117.png",
+  "componentes": ["Miel", "Incienso", "Tabaco"],
+  "venta_300": 30,
+  "venta_500": 50,
+  "venta_700": 70
+},
+{
+  "codigo": "CC119",
+  "genero": "Masculino",
+  "nombre": "TOMMY MEN TOMMY HILFIGER",
+  "tendencia_olfativa": "Fresco Especiado, Verde, Cítricos",
+  "referencia": "./img/cc119.png",
+  "componentes": ["Manzana", "Menta", "Toronja"],
+  "venta_300": 30,
+  "venta_500": 50,
+  "venta_700": 70
+},
+{
+  "codigo": "CC121",
+  "genero": "Masculino",
+  "nombre": "ULTRAVIOLET MEN PACO RABANNE",
+  "tendencia_olfativa": "Verde, Amaderado, Aromático",
+  "referencia": "./img/cc121.png",
+  "componentes": ["Menta", "Ámbar", "Musgo de Roble"],
+  "venta_300": 30,
+  "venta_500": 50,
+  "venta_700": 70
+},
+{
+  "codigo": "CC122",
+  "genero": "Masculino",
+  "nombre": "ULTRAMALE JEAN PAUL GAULTIER",
+  "tendencia_olfativa": "Avainillado, Dulce, Afrutados",
+  "referencia": "./img/cc122.png",
+  "componentes": ["Pera", "Vaina de Vainilla", "Canela"],
+  "venta_300": 30,
+  "venta_500": 50,
+  "venta_700": 70
+},
+
+{
+  "codigo": "CC123",
+  "genero": "Masculino",
+  "nombre": "VERY IRRESISTIBLE MEN GIVENCHY",
+  "tendencia_olfativa": "Amaderado, Sabor a Nueces, Café",
+  "referencia": "./img/cc123.png",
+  "componentes": ["Avellana", "Café", "Menta"],
+  "venta_300": 30,
+  "venta_500": 50,
+  "venta_700": 70
+},
+{
+  "codigo": "CC125",
+  "genero": "Masculino",
+  "nombre": "SPIRIT NEYMAR DIESEL",
+  "tendencia_olfativa": "Fresco, Aromático, Amaderado",
+  "referencia": "./img/cc125.png",
+  "componentes": ["Verde", "Bergamota", "Ciprés"],
+  "venta_300": 44,
+  "venta_500": 66,
+  "venta_700": 92
+},
+{
+  "codigo": "CC126",
+  "genero": "Masculino",
+  "nombre": "ONE MILLION ELIXIR PACO RABANNE",
+  "tendencia_olfativa": "Avainillado, Afrutado, Rosas",
+  "referencia": "./img/cc126.png",
+  "componentes": ["Manzana", "Rosa de Damasco", "Vainilla"],
+  "venta_300": 44,
+  "venta_500": 66,
+  "venta_700": 92
+},
+{
+  "codigo": "CC127",
+  "genero": "Masculino",
+  "nombre": "212 VIP WINS MEN CAROLINA HERRERA",
+  "tendencia_olfativa": "Cítrico, Fresco Especiado, Verde",
+  "referencia": "./img/cc127.png",
+  "componentes": ["Yuzu", "Lavanda", "Haba Tonka"],
+  "venta_300": 44,
+  "venta_500": 66,
+  "venta_700": 92
+},
+{
+  "codigo": "CC128",
+  "genero": "Masculino",
+  "nombre": "INVICTUS PLATINIUM MEN PACO RABANNE",
+  "tendencia_olfativa": "Aromático, Fresco Especiado, Verde",
+  "referencia": "./img/cc128.png",
+  "componentes": ["Toronja", "Menta", "Lavanda"],
+  "venta_300": 44,
+  "venta_500": 66,
+  "venta_700": 92
+},
+{
+  "codigo": "CC129",
+  "genero": "Masculino",
+  "nombre": "L'IMMENSITÉ LOUIS VUITTON",
+  "tendencia_olfativa": "Ámbar, Especiada",
+  "referencia": "./img/cc129.png",
+  "componentes": ["Toronja", "Jengibre", "Geranio"],
+  "venta_300": 44,
+  "venta_500": 66,
+  "venta_700": 92
+},
+{
+  "codigo": "CC131",
+  "genero": "Masculino",
+  "nombre": "KING BHARARA",
+  "tendencia_olfativa": "Aromático",
+  "referencia": "./img/cc131.png",
+  "componentes": ["Naranja", "Notas Afrutadas", "Vainilla"],
+  "venta_300": 44,
+  "venta_500": 66,
+  "venta_700": 92
+},
+{
+  "codigo": "CC132",
+  "genero": "Masculino",
+  "nombre": "THE SCENT OF PEACE FOR HIM BOND Nº 9",
+  "tendencia_olfativa": "Amaderado, Aromático",
+  "referencia": "./img/cc132.png",
+  "componentes": ["Piña", "Bergamota", "Vetiver"],
+  "venta_300": 44,
+  "venta_500": 66,
+  "venta_700": 92
+},
+{
+  "codigo": "CC136",
+  "genero": "Masculino",
+  "nombre": "INVICTUS VICTORY ELIXIR PACO RABANNE",
+  "tendencia_olfativa": "Ambarado, Avainillado, Dulce",
+  "referencia": "./img/cc136.png",
+  "componentes": ["Vainilla", "Incienso", "Ámbar"],
+  "venta_300": 44,
+  "venta_500": 66,
+  "venta_700": 92
+},
+{
+  "codigo": "CC137",
+  "genero": "Masculino",
+  "nombre": "TOY BOY MOSCHINO",
+  "tendencia_olfativa": "Amaderada, Especiada",
+  "referencia": "./img/cc137.png",
+  "componentes": ["Rosa", "Pimienta", "Pera"],
+  "venta_300": 44,
+  "venta_500": 66,
+  "venta_700": 92
+},
+
+{
+  "codigo": "DD001",
+  "genero": "Femenino",
+  "nombre": "212 CAROLINA HERRERA WOMAN",
+  "tendencia_olfativa": "Floral Blanco, Cítrico, Almizclado",
+  "referencia": "./img/dd001.png",
+  "componentes": ["Almizcle", "Azucena", "Flor de Azahar del Naranjo"],
+  "venta_300": 31,
+  "venta_500": 15.5,
+  "venta_700": 310
+},
+{
+  "codigo": "DD002",
+  "genero": "Femenino",
+  "nombre": "212 SEXY WOMAN CAROLINA HERRERA",
+  "tendencia_olfativa": "Dulce, Almizclado, Avainillado",
+  "referencia": "./img/dd002.png",
+  "componentes": ["Pimienta Rosa", "Vainilla", "Algodón de Azúcar"],
+  "venta_300": 31,
+  "venta_500": 15.5,
+  "venta_700": 310
+},
+{
+  "codigo": "DD003",
+  "genero": "Femenino",
+  "nombre": "360º WOMAN PERRY ELLIS",
+  "tendencia_olfativa": "Florales, Acuático, Aromático",
+  "referencia": "./img/dd003.png",
+  "componentes": ["Azucena", "Melón", "Lirio de Agua"],
+  "venta_300": 31,
+  "venta_500": 15.5,
+  "venta_700": 310
+},
+{
+  "codigo": "DD004",
+  "genero": "Femenino",
+  "nombre": "212 ON ICE WOMAN CAROLINA HERRERA",
+  "tendencia_olfativa": "Cítricos, Rosas, Floral Blanco",
+  "referencia": "./img/dd004.png",
+  "componentes": ["Mandarina", "Rosa", "Toronja"],
+  "venta_300": 31,
+  "venta_500": 15.5,
+  "venta_700": 310
+},
+{
+  "codigo": "DD005",
+  "genero": "Femenino",
+  "nombre": "212 VIP WOMAN CAROLINA HERRERA",
+  "tendencia_olfativa": "Balsámico, Tropical, Dulce, Ron Avainillado",
+  "referencia": "./img/dd005.png",
+  "componentes": ["Ron", "Vainilla"],
+  "venta_300": 43,
+  "venta_500": 21.5,
+  "venta_700": 430
+},
+
+{
+  "codigo": "DD006",
+  "genero": "Femenino",
+  "nombre": "212 VIP ROSE CAROLINA HERRERA",
+  "tendencia_olfativa": "Afrutados, Florales, Amaderado",
+  "referencia": "./img/dd006.png",
+  "componentes": ["Champaña", "Notas Frutadas", "Flor de Duraznero"],
+  "venta_300": 43,
+  "venta_500": 21.5,
+  "venta_700": 430
+},
+{
+  "codigo": "DD007",
+  "genero": "Femenino",
+  "nombre": "ACQUA DI GIO WOMAN GIORGIO ARMANI",
+  "tendencia_olfativa": "Florales, Verde, Fresco",
+  "referencia": "./img/dd007.png",
+  "componentes": ["Peonía", "Vodka", "Lirios"],
+  "venta_300": 31,
+  "venta_500": 15.5,
+  "venta_700": 310
+},
+{
+  "codigo": "DD008",
+  "genero": "Femenino",
+  "nombre": "AIRES DEL TIEMPO NINA RICCI",
+  "tendencia_olfativa": "Cálido Especiado, Florales, Amaderado",
+  "referencia": "./img/dd008.png",
+  "componentes": ["Clavel", "Clavos de Olor", "Aldehídos"],
+  "venta_300": 31,
+  "venta_500": 15.5,
+  "venta_700": 310
+},
+{
+  "codigo": "DD010",
+  "genero": "Femenino",
+  "nombre": "AMOR AMOR WOMAN CACHAREL",
+  "tendencia_olfativa": "Cítricos, Afrutados, Amaderado",
+  "referencia": "./img/dd010.png",
+  "componentes": ["Grosellas Negras", "Vainilla", "Naranja"],
+  "venta_300": 31,
+  "venta_500": 15.5,
+  "venta_700": 310
+},
+{
+  "codigo": "DD011",
+  "genero": "Femenino",
+  "nombre": "ANAIS ANAIS WOMAN CACHAREL",
+  "tendencia_olfativa": "Floral Blanco, Amaderado, Verde",
+  "referencia": "./img/dd011.png",
+  "componentes": ["Jacinto", "Azucena", "Lirios del Valle"],
+  "venta_300": 31,
+  "venta_500": 15.5,
+  "venta_700": 310
+},
+
+{
+  "codigo": "DD012",
+  "genero": "Femenino",
+  "nombre": "ANGEL WOMAN THIERRY MUGLER",
+  "tendencia_olfativa": "Dulce, Avainillado, Afrutado, Amaderado",
+  "referencia": "./img/dd012.png",
+  "componentes": ["Vainilla", "Chocolate", "Caramelo", "Coco"],
+  "venta_300": 43,
+  "venta_500": 21.5,
+  "venta_700": 430
+},
+{
+  "codigo": "DD013",
+  "genero": "Femenino",
+  "nombre": "ANNA SUI WOMAN ANNA SUI",
+  "tendencia_olfativa": "Cálido Especiado, Ambarado, Dulce",
+  "referencia": "./img/dd013.png",
+  "componentes": ["Bergamota", "Frambuesa", "Almizcle"],
+  "venta_300": 31,
+  "venta_500": 15.5,
+  "venta_700": 310
+},
+{
+  "codigo": "DD014",
+  "genero": "Femenino",
+  "nombre": "AROMATICS ELIXIR CLINIQUE",
+  "tendencia_olfativa": "Aromático, Amaderado, Balsámico",
+  "referencia": "./img/dd014.png",
+  "componentes": ["Manzanilla", "Pachuli", "Sándalo"],
+  "venta_300": 31,
+  "venta_500": 15.5,
+  "venta_700": 310
+},
+{
+  "codigo": "DD015",
+  "genero": "Femenino",
+  "nombre": "ATTRACTION WOMAN LANCÔME",
+  "tendencia_olfativa": "Amaderado, Floral Blanco, Almizclado",
+  "referencia": "./img/dd015.png",
+  "componentes": ["Neroli", "Rosa", "Cedro"],
+  "venta_300": 31,
+  "venta_500": 15.5,
+  "venta_700": 310
+},
+{
+  "codigo": "DD016",
+  "genero": "Femenino",
+  "nombre": "BE DELICIOUS WOMAN DKNY",
+  "tendencia_olfativa": "Afrutados, Verde, Amaderado",
+  "referencia": "./img/dd016.png",
+  "componentes": ["Manzana", "Grosellas", "Sándalo"],
+  "venta_300": 31,
+  "venta_500": 15.5,
+  "venta_700": 310
+}
+
+
+
+]
+

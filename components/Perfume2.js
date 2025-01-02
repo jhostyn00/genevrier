@@ -1,36 +1,10 @@
-import React, { useRef, useEffect } from 'react';
-import { useGLTF } from '@react-three/drei';
-import gsap from 'gsap';
+import React, { useRef } from 'react'
+import { useGLTF } from '@react-three/drei'
 
-export function Perfume2(props) {
-  const { nodes, materials } = useGLTF('/models/p2.glb');
-  const groupRef = useRef();
-
-  useEffect(() => {
-    if (groupRef.current) {
-      // Animación flotante con GSAP
-      gsap.to(groupRef.current.position, {
-        y: "+=0.2", // Movimiento vertical hacia arriba
-        duration: 2, // Duración del movimiento
-        yoyo: true, // Reversa automáticamente
-        repeat: -1, // Animación infinita
-        ease: "sine.inOut", // Movimiento suave
-      });
-
-      // Animación de rotación con GSAP
-      gsap.to(groupRef.current.rotation, {
-        x: "+=0.05", // Ligera inclinación en X
-        z: "+=0.03", // Balanceo en Z
-        duration: 2, // Duración
-        yoyo: true, // Reversa automáticamente
-        repeat: -1, // Animación infinita
-        ease: "sine.inOut",
-      });
-    }
-  }, []);
-
+export function Model(props) {
+  const { nodes, materials } = useGLTF('/3d/p2.glb')
   return (
-    <group ref={groupRef} {...props} dispose={null}>
+    <group {...props} dispose={null}>
       <group position={[0, -1.08, 0]} rotation={[-Math.PI / 2, 0, 0]} scale={1.2}>
         <group rotation={[Math.PI / 2, 0, 0]} scale={0.01}>
           <mesh
@@ -38,7 +12,7 @@ export function Perfume2(props) {
             receiveShadow
             geometry={nodes.cap_cap_0.geometry}
             material={materials.material}
-            position={[0, 345.939, 0]}
+            position={[0, 345.94, 0]}
             rotation={[-Math.PI / 2, 0, 0]}
             scale={[83.481, 83.481, 91.412]}
           />
@@ -88,7 +62,7 @@ export function Perfume2(props) {
         </group>
       </group>
     </group>
-  );
+  )
 }
 
-useGLTF.preload('/models/p2.glb');
+useGLTF.preload('/p2.glb')

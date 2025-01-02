@@ -19,7 +19,7 @@ export default function Footer() {
           onClick={() => setShowFragancias(!showFragancias)}
         >
           Fragancias
-          <span className="text-white">{showFragancias ? "−" : "+"}</span>
+          <span className="text-3xl text-white">{showFragancias ? "−" : "+"}</span>
         </div>
         {showFragancias && (
           <ul className="space-y-2 text-sm">
@@ -38,7 +38,7 @@ export default function Footer() {
           onClick={() => setShowSobreNosotros(!showSobreNosotros)}
         >
           Sobre nosotros
-          <span className="text-white">{showSobreNosotros ? "−" : "+"}</span>
+          <span className="text-3xl text-white">{showSobreNosotros ? "−" : "+"}</span>
         </div>
         {showSobreNosotros && (
           <p className="text-sm">
@@ -55,7 +55,7 @@ export default function Footer() {
           onClick={() => setShowProximamente(!showProximamente)}
         >
           Próximamente
-          <span className="text-white">{showProximamente ? "−" : "+"}</span>
+          <span className="text-3xl text-white">{showProximamente ? "−" : "+"}</span>
         </div>
         {showProximamente && (
           <p className="text-sm">Nuevas colecciones y sorpresas.</p>
@@ -68,7 +68,6 @@ export default function Footer() {
         <h3 className="mb-2 text-lg font-semibold">Contáctanos:</h3>
         <ul className="space-y-2 text-sm">
           <li>WhatsApp</li>
-          <li>Instagram</li>
           <li>Correo electrónico</li>
         </ul>
         <div className="mt-4 border-t border-white"></div>
@@ -76,7 +75,7 @@ export default function Footer() {
 
       {/* Flecha hacia arriba */}
       <div className="mb-4 text-center">
-        <button className="text-2xl text-white">↑</button>
+        <button className="text-3xl text-white">↑</button>
       </div>
 
       {/* Ubicación */}

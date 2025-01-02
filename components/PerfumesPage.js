@@ -1,5 +1,6 @@
 "use client";
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
+import { ArrowUpRight } from 'lucide-react';
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa"; // Iconos de flechas
 
 const PerfumesPage = () => {
@@ -9,6 +10,9 @@ const PerfumesPage = () => {
   const [selectedProducto, setSelectedProducto] = useState(null);
   const [currentPage, setCurrentPage] = useState(1);
   const itemsPerPage = 20; // Cuántos productos por página
+
+  // Referencia al contenedor de productos
+  const productosContainerRef = useRef(null);
 
   // Cargar productos desde el JSON
   useEffect(() => {
@@ -37,6 +41,10 @@ const PerfumesPage = () => {
   // Manejar el cambio de página
   const handlePageChange = (page) => {
     setCurrentPage(page);
+    // Hacer scroll hacia el contenedor de productos
+    if (productosContainerRef.current) {
+      productosContainerRef.current.scrollIntoView({ behavior: "smooth" });
+    }
   };
 
   // Obtener los productos para la página actual
@@ -51,7 +59,7 @@ const PerfumesPage = () => {
   const totalPages = Math.ceil(filteredProductos.length / itemsPerPage);
 
   return (
-    <div>
+    <div id="perfumes" ref={productosContainerRef}>
       {/* Buscador */}
       <div className="flex items-center justify-center p-4 ">
         <div className="relative w-full max-w-md">
@@ -69,7 +77,10 @@ const PerfumesPage = () => {
       </div>
 
       {/* Tarjetas de Productos */}
-      <div className="grid grid-cols-1 gap-6 p-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+      <div
+        className="grid grid-cols-1 gap-6 p-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4"
+        
+      >
         {currentProducts.length > 0 ? (
           currentProducts.map((producto) => (
             <div
@@ -85,7 +96,7 @@ const PerfumesPage = () => {
               <h3 className="mt-2 text-lg font-bold">{producto.nombre}</h3>
               <p className="text-sm text-gray-500">{producto.tendencia_olfativa}</p>
               <p className="mt-2 font-bold text-gray-700">
-                Precio: $ {producto.venta_500}.00
+                Precio base: S/35.0
               </p>
             </div>
           ))
@@ -110,7 +121,7 @@ const PerfumesPage = () => {
         </button>
 
         {/* Número de Página */}
-        <span className="text-lg font-semibold text-gray-700">
+        <span className="text-lg font-semibold">
           Página {currentPage} de {totalPages}
         </span>
 
@@ -150,8 +161,13 @@ const PerfumesPage = () => {
 
             {/* Información */}
             <p className="mt-2 text-sm text-gray-600">
+              Código: {selectedProducto.codigo}
+            </p>
+
+            <p className="mt-2 text-sm text-gray-600">
               Género: {selectedProducto.genero}
             </p>
+
             <p className="mt-2 text-sm text-gray-600">
               Tendencia Olfativa: {selectedProducto.tendencia_olfativa}
             </p>
@@ -167,10 +183,19 @@ const PerfumesPage = () => {
             {/* Precios */}
             <div className="mt-4">
               <p className="text-lg font-bold text-gray-700">Precios:</p>
-              <p className="text-gray-700">30ml: $ {selectedProducto.venta_300}.00</p>
-              <p className="text-gray-700">50ml: $ {selectedProducto.venta_500}.00</p>
-              <p className="text-gray-700">100ml: $ {selectedProducto.venta_700}.00</p>
+              <p className="text-gray-700">30ml: S/35.0</p>
+              <p className="text-gray-700">50ml: S/55.0</p>
+              <p className="text-gray-700">100ml: S/75.0</p>
             </div>
+            <a
+                        href="https://wa.me/51925743244?text=Hola%2C%20quiero%20consultar%20sobre%20tus%20productos"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center justify-center w-auto gap-2 px-6 py-3 mt-4 text-2xl font-medium text-black border border-black"
+                    >
+                        CONSULTAR
+                        <ArrowUpRight className="w-[4vw] h-[4vw] lg:w-[2.5vw] lg:h-[2.5vw]" />
+                    </a>
           </div>
         </div>
       )}

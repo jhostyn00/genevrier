@@ -1,8 +1,8 @@
 import React, { useRef } from 'react'
 import { useGLTF } from '@react-three/drei'
 
-export function Perfume3(props) {
-  const { nodes, materials } = useGLTF('/models/p3.glb')
+export function Model(props) {
+  const { nodes, materials } = useGLTF('/3d/p3.glb')
   return (
     <group {...props} dispose={null}>
       <group position={[0, -1.32, 0]} rotation={[-Math.PI / 2, 0, -1.567]}>
@@ -71,4 +71,4 @@ export function Perfume3(props) {
   )
 }
 
-useGLTF.preload('/models/p3.glb')
+useGLTF.preload('/p3.glb')
