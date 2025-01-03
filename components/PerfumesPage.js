@@ -93,9 +93,9 @@ const PerfumesPage = () => {
                 alt={producto.nombre}
                 className="object-cover w-full h-auto rounded-md"
               />
-              <h3 className="mt-2 text-lg font-bold">{producto.nombre}</h3>
-              <p className="text-sm text-gray-500">{producto.tendencia_olfativa}</p>
-              <p className="mt-2 font-bold text-gray-700">
+              <h3 className="mt-2 text-xl font-bold text-black">{producto.nombre}</h3>
+              <p className="text-xl text-gray-600">{producto.tendencia_olfativa}</p>
+              <p className="mt-2 text-xl font-bold text-gray-700">
                 Precio base: S/35.0
               </p>
             </div>

@@ -46,7 +46,7 @@ const Banner = () => {
                     alt="Humo"
                 />
             {/* Título ajustable */}
-            <div className="text-4xl font-extrabold text-center ">
+            <div className="text-5xl text-center sm:text-8xl titulo">
                 GENEVRIER
             </div>
 

@@ -100,7 +100,7 @@ const Navegator = () => {
               alt="Logo"
               className="w-auto h-12"
             />
-            <Link href="/" className="text-xl font-black hover:text-gray-300">
+            <Link href="/" className="text-xl titulo hover:text-gray-300">
               GENEVRIER
             </Link>
           </div>
@@ -144,7 +144,7 @@ const Navegator = () => {
           </li>
         </ul>
         <div className="flex flex-col items-center justify-center gap-5">
-            <div className="text-6xl font-bold text-white">GENEVRIER</div>
+            <div className="text-6xl font-bold text-white titulo">GENEVRIER</div>
             <Image src="/logo.png" width={1010} height={1191} alt="Logo" className="w-auto h-32" />
         </div>
       </div>
