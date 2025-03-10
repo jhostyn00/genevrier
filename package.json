@@ -9,8 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@headlessui/react": "^2.2.0",
     "@react-three/drei": "^9.117.3",
     "@react-three/fiber": "^8.17.10",
+    "framer-motion": "^12.4.10",
     "gsap": "^3.12.5",
     "lucide-react": "^0.464.0",
     "next": "15.0.3",

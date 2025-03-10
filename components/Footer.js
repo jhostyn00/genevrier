@@ -2,7 +2,6 @@ import { useState } from "react";
 
 export default function Footer() {
   // Estados para controlar las secciones
-  const [showFragancias, setShowFragancias] = useState(true);
   const [showSobreNosotros, setShowSobreNosotros] = useState(false);
   const [showProximamente, setShowProximamente] = useState(false);
 
@@ -12,24 +11,7 @@ export default function Footer() {
         GENEVRIER
       </div>
 
-      {/* Sección Fragancias */}
-      <div className="mb-6">
-        <div
-          className="flex items-center justify-between mb-2 text-lg font-semibold cursor-pointer footo"
-          onClick={() => setShowFragancias(!showFragancias)}
-        >
-          Fragancias
-          <span className="text-3xl text-white">{showFragancias ? "−" : "+"}</span>
-        </div>
-        {showFragancias && (
-          <ul className="space-y-2 text-sm foot">
-            <li>Todas las fragancias</li>
-            <li>Para damas</li>
-            <li>Para varones</li>
-          </ul>
-        )}
-        <div className="mt-4 border-t border-white foot"></div>
-      </div>
+
 
       {/* Sección Sobre Nosotros */}
       <div className="mb-6">
