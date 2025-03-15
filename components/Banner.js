@@ -48,6 +48,7 @@ const Banner = () => {
             {/* Título ajustable */}
             <div className="text-5xl text-center sm:text-8xl titulo">
                 GENEVRIER
+                <p className='text-xl font-light'>Perfumería Alternativa</p>
             </div>
 
             {/* Sección con 3 Canvas */}
