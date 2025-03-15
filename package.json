@@ -12,6 +12,7 @@
     "@headlessui/react": "^2.2.0",
     "@react-three/drei": "^9.117.3",
     "@react-three/fiber": "^8.17.10",
+    "@vercel/analytics": "^1.5.0",
     "framer-motion": "^12.4.10",
     "gsap": "^3.12.5",
     "lucide-react": "^0.464.0",

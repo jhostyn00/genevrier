@@ -17,7 +17,6 @@ const PerfumesPage = () => {
   const [filtroGenero, setFiltroGenero] = useState("Todos");
   const [filtroMarca, setFiltroMarca] = useState("Todas");
   const [currentPage, setCurrentPage] = useState(1);
-  const [selectedProducto, setSelectedProducto] = useState(null);
   const productosPerPage = 8;
   const productosContainerRef = useRef(null);
 
@@ -33,6 +32,12 @@ const PerfumesPage = () => {
   useEffect(() => {
     filtrarProductos(false);
   }, [filtroGenero, filtroMarca]);
+
+  useEffect(() => {
+    if (productosContainerRef.current) {
+      productosContainerRef.current.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  }, [currentPage]);
 
   const filtrarProductos = (desdeBuscador) => {
     let filtered = productos;
@@ -67,30 +72,30 @@ const PerfumesPage = () => {
     setQuery("");
   };
 
+  const totalPages = Math.ceil(filteredProductos.length / productosPerPage);
   const indexOfLastProducto = currentPage * productosPerPage;
   const indexOfFirstProducto = indexOfLastProducto - productosPerPage;
   const currentProductos = filteredProductos.slice(indexOfFirstProducto, indexOfLastProducto);
 
-  const paginate = (pageNumber) => {
-    setCurrentPage(pageNumber);
-    productosContainerRef.current.scrollIntoView({ behavior: "smooth" });
+  const goToPage = (page) => {
+    if (page >= 1 && page <= totalPages) setCurrentPage(page);
   };
 
   return (
-    <div id="perfumes" ref={productosContainerRef} className="bg-[#f8f8f8] min-h-screen">
+    <div id="perfumes" ref={productosContainerRef} className="bg-[#f8f8f8] min-h-screen p-4">
       {/* Filtros */}
-      <div className="flex flex-col items-center justify-center p-4 space-y-4 bg-white rounded-lg shadow-md md:flex-row md:space-x-4 md:space-y-0">
+      <div className="flex flex-wrap items-center justify-center gap-4 p-4 bg-white rounded-lg shadow-md">
         <form onSubmit={handleSubmit} className="relative flex w-full max-w-md">
           <input
             type="text"
             placeholder="Encuentra Tu Fragancia"
             value={query}
             onChange={handleSearch}
-            className="w-full py-3 pl-4 pr-12 text-black placeholder-gray-400 border border-gray-300 rounded-l-full shadow-md focus:ring-2 focus:ring-black focus:outline-none"
+            className="w-full py-3 pl-4 pr-12 text-black border border-gray-300 rounded-l-full focus:ring-2 focus:ring-black focus:outline-none"
           />
           <button
             type="submit"
-            className="flex items-center justify-center px-4 text-white transition duration-300 bg-black rounded-r-full hover:bg-gray-800"
+            className="px-4 text-white bg-black rounded-r-full hover:bg-gray-800"
           >
             <FaSearch />
           </button>
@@ -99,7 +104,7 @@ const PerfumesPage = () => {
         <select
           value={filtroGenero}
           onChange={(e) => setFiltroGenero(e.target.value)}
-          className="px-4 py-3 text-black bg-white border border-gray-300 rounded-full shadow-md focus:ring-2 focus:ring-black focus:outline-none"
+          className="p-2 text-black border border-gray-300 rounded-full "
         >
           <option value="Todos">Todos</option>
           <option value="Masculino">Masculino</option>
@@ -109,7 +114,7 @@ const PerfumesPage = () => {
         <select
           value={filtroMarca}
           onChange={(e) => setFiltroMarca(e.target.value)}
-          className="px-4 py-3 text-black bg-white border border-gray-300 rounded-full shadow-md focus:ring-2 focus:ring-black focus:outline-none"
+          className="p-2 text-black border border-gray-300 rounded-full"
         >
           <option value="Todas">Todas las marcas</option>
           {marcasDisponibles.map((marca) => (
@@ -119,55 +124,45 @@ const PerfumesPage = () => {
       </div>
 
       {/* Productos */}
-      <div className="grid grid-cols-1 gap-6 p-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+      <div className="grid grid-cols-1 gap-4 mt-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
         {currentProductos.map((producto) => (
-          <div
-            key={producto.codigo}
-            className="p-4 transition duration-300 bg-white rounded-lg shadow-lg cursor-pointer hover:shadow-xl"
-            onClick={() => setSelectedProducto(producto)}
-          >
-            <img
-              src={producto.referencia}
-              alt={producto.nombre}
-              className="object-cover w-full h-auto rounded-md"
-            />
-            <h3 className="mt-2 text-xl font-bold text-black">{producto.nombre}</h3>
+          <div key={producto.codigo} className="p-4 bg-white rounded-lg shadow-md">
+            <img src={producto.referencia} alt={producto.nombre} className="w-full h-auto rounded-md" />
+            <h3 className="mt-2 text-lg font-bold">{producto.nombre}</h3>
             <p className="text-gray-600">{producto.tendencia_olfativa}</p>
-            <p className="mt-2 text-xl font-bold text-gray-700">Precio base: S/35.0</p>
           </div>
         ))}
       </div>
 
-      {/* Paginación */}
-      <div className="flex justify-center mt-6">
-        {Array.from({ length: Math.ceil(filteredProductos.length / productosPerPage) }, (_, i) => (
-          <button
-            key={i + 1}
-            onClick={() => paginate(i + 1)}
-            className={`mx-1 px-4 py-2 rounded-lg shadow-md transition duration-300 ${
-              currentPage === i + 1 ? "bg-black text-white" : "bg-gray-200 text-black hover:bg-gray-300"
-            }`}
-          >
-            {i + 1}
-          </button>
-        ))}
-      </div>
+      {/* Paginación Minimalista */}
+      <div className="flex justify-center mt-6 space-x-2">
 
-      {/* Modal de Producto */}
-      {selectedProducto && (
-        <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
-          <div className="w-full max-w-md p-6 text-black bg-white rounded-lg shadow-lg">
-            <p className="text-sm text-gray-500">Código: {selectedProducto.codigo}</p>
-            <img src={selectedProducto.referencia} alt={selectedProducto.nombre} className="w-full h-auto mb-4 rounded-md" />
-            <h2 className="text-2xl font-bold">{selectedProducto.nombre}</h2>
-            <p>Género: {selectedProducto.genero}</p>
-            <p>Tendencia Olfativa: {selectedProducto.tendencia_olfativa}</p>
-            <p>Componentes: {selectedProducto.componentes.join(", ")}</p>
-            <p>Precio: S/35.0</p>
-            <button className="px-4 py-2 mt-4 text-white bg-red-500 rounded" onClick={() => setSelectedProducto(null)}>Cerrar</button>
-          </div>
-        </div>
-      )}
+        <button onClick={() => goToPage(currentPage - 1)} disabled={currentPage === 1}
+          className="px-4 py-2 text-black bg-white border rounded-md hover:bg-gray-100 disabled:opacity-50">
+          Anterior
+        </button>
+
+        {[...Array(totalPages)].map((_, index) => {
+          const page = index + 1;
+          if (page === 1 || page === totalPages || Math.abs(page - currentPage) <= 2) {
+            return (
+              <button key={page} onClick={() => goToPage(page)}
+                className={`px-4 py-2 border rounded-md ${page === currentPage ? "bg-black text-white" : "bg-white text-black hover:bg-gray-100"}`}>
+                {page}
+              </button>
+            );
+          } else if (page === currentPage - 3 || page === currentPage + 3) {
+            return <span key={page} className="px-2 py-2 text-gray-500">...</span>;
+          }
+          return null;
+        })}
+
+        <button onClick={() => goToPage(currentPage + 1)} disabled={currentPage === totalPages}
+          className="px-4 py-2 text-black bg-white border rounded-md hover:bg-gray-100 disabled:opacity-50">
+          Siguiente
+        </button>
+
+      </div>
     </div>
   );
 };

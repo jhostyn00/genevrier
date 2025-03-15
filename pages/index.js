@@ -7,6 +7,7 @@ import PerfumesPage from "@/components/PerfumesPage";
 import BestChoice from "@/components/BestChoice";
 import Footer from "@/components/Footer";
 
+
 export default function Home() {
   useEffect(() => {
     // Hacer scroll hacia la parte superior al cargar la página
@@ -20,6 +21,7 @@ export default function Home() {
 
   return (
     <main>
+      
       <section id="navegator">
         <Navegator />
       </section>
