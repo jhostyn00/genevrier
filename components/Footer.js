@@ -24,7 +24,7 @@ export default function Footer() {
         </div>
         {showSobreNosotros && (
           <p className="text-sm foot">
-            Información sobre nuestra historia y filosofía.
+            En Genevrier, creamos fragancias alternativas inspiradas en las grandes casas de lujo. Ofrecemos perfumes sofisticados y exclusivos para quienes buscan elegancia y autenticidad.
           </p>
         )}
         <div className="mt-4 border-t border-white"></div>
@@ -49,8 +49,7 @@ export default function Footer() {
       <div className="mb-6">
         <h3 className="mb-2 text-lg font-semibold footo">Contáctanos:</h3>
         <ul className="space-y-2 text-sm foot">
-          <li className="foot">WhatsApp</li>
-          <li>Correo electrónico</li>
+          <li className="foot">WhatsApp: +51 925 743 244</li>
         </ul>
         <div className="mt-4 border-t border-white"></div>
       </div>
